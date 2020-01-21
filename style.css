@@ -1,0 +1,62 @@
+.gamespace {
+    text-align: center;
+    background-color: #011F3F;
+}
+
+h1 {
+    color: wheat;
+    font-family: 'Press Start 2P', cursive;
+    margin: 4rem;
+}
+
+/* Buttons Area*/
+.button-area {
+    margin: auto;
+    width: 50%;
+}
+
+.button {
+    height: 12vw;
+    border-radius: 1rem;
+    margin: 2rem auto;
+    border: 5px solid black;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+
+/* Game Actions */
+.pressed {
+    box-shadow: 10px 10px 20px white;
+    background-color: grey;
+}
+
+.game-over {
+    background-color: red;
+}
+
+/* Game Rules */
+#game-rules {
+    margin: 5rem auto;
+    width: 50%;
+}
+
+#game-rules .card{
+    background-color: #343a40;
+    font-family: cursive;
+    color: #fff;
+}
